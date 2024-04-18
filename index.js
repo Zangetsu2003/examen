@@ -44,7 +44,7 @@ async function askName() {
     const answers = await inquirer.prompt({
       name: 'question_1',
       type: 'list',
-      message: 'What is the best Halo?\n',
+      message: 'This is an exam?\n',
       choices: [
         'Halo 1',
         'Halo 2',
